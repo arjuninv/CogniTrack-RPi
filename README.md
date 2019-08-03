@@ -13,13 +13,17 @@ CogniTrack is an Artificial Intelligence powered person tracking system that acq
 - Add, modify and delete members in real-time from Admin Web Interface
 
 ## Getting Started
-1. Install dependencies
+- Install dependencies
 ```
 pip install -r requirements.txt
 ```
-2. Run index.py
+- For Raspberry Pi - Run client_for_raspberry_pi.py
 ```
-python index.py
+python client_for_raspberry_pi.py
+```
+- For testing with webcam - Run client_for_webcam.py
+```
+python client_for_webcam.py
 ```
 ## License
 The project is published under the MIT license, which means that you can use it for any purpose, personal or commercial. There is no obligation to publish your source code.
